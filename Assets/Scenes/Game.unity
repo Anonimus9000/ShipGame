@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 3543661}
   m_Layer: 4
   m_Name: Water (15)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 26533425}
   m_Layer: 4
   m_Name: Water (78)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 33246518}
   m_Layer: 4
   m_Name: Water (53)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 75612848}
   m_Layer: 4
   m_Name: Water (40)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 81869653}
   m_Layer: 4
   m_Name: Water (38)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -671,7 +671,7 @@ GameObject:
   - component: {fileID: 113708301}
   m_Layer: 4
   m_Name: Water (27)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 117262412}
   m_Layer: 4
   m_Name: Water (51)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 165018525}
   m_Layer: 4
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 175131403}
   m_Layer: 4
   m_Name: Water (2)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 213895238}
   m_Layer: 4
   m_Name: Water (64)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 231020515}
   m_Layer: 4
   m_Name: Water (70)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1409,7 +1409,7 @@ GameObject:
   - component: {fileID: 327994426}
   m_Layer: 4
   m_Name: Water (3)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1516,7 +1516,7 @@ GameObject:
   - component: {fileID: 423047372}
   m_Layer: 4
   m_Name: Water (56)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1623,7 +1623,7 @@ GameObject:
   - component: {fileID: 436754209}
   m_Layer: 4
   m_Name: Water (72)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1730,7 +1730,7 @@ GameObject:
   - component: {fileID: 447961129}
   m_Layer: 4
   m_Name: Water (37)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1837,7 +1837,7 @@ GameObject:
   - component: {fileID: 452415731}
   m_Layer: 4
   m_Name: Water (17)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1944,7 +1944,7 @@ GameObject:
   - component: {fileID: 462183854}
   m_Layer: 4
   m_Name: Water (75)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2051,7 +2051,7 @@ GameObject:
   - component: {fileID: 527037376}
   m_Layer: 4
   m_Name: Water (54)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2158,7 +2158,7 @@ GameObject:
   - component: {fileID: 567172776}
   m_Layer: 4
   m_Name: Water (71)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2265,7 +2265,7 @@ GameObject:
   - component: {fileID: 615408192}
   m_Layer: 4
   m_Name: Water (46)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2372,7 +2372,7 @@ GameObject:
   - component: {fileID: 632116104}
   m_Layer: 4
   m_Name: Water (68)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 658881221}
   m_Layer: 4
   m_Name: Water (11)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2586,7 +2586,7 @@ GameObject:
   - component: {fileID: 697265249}
   m_Layer: 4
   m_Name: Water (55)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2785,7 +2785,7 @@ GameObject:
   - component: {fileID: 706899763}
   m_Layer: 4
   m_Name: Water (74)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2892,7 +2892,7 @@ GameObject:
   - component: {fileID: 741569165}
   m_Layer: 4
   m_Name: Water (25)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 744834355}
   m_Layer: 4
   m_Name: Water (77)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 748255295}
   m_Layer: 4
   m_Name: Water (6)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3198,36 +3198,12 @@ Transform:
   m_Father: {fileID: 165018524}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &758834886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 758834887}
-  m_Layer: 0
-  m_Name: CameraTarget
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &758834887
+--- !u!4 &758834887 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3647112747685099567, guid: e4b2db2b157206443a033c57e53a1789,
+    type: 3}
+  m_PrefabInstance: {fileID: 3647112748273983208}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758834886}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 16.9, z: -0.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 906232371}
-  m_RootOrder: 62
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804687690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,7 +3219,7 @@ GameObject:
   - component: {fileID: 804687692}
   m_Layer: 4
   m_Name: Water (52)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3350,7 +3326,7 @@ GameObject:
   - component: {fileID: 826500361}
   m_Layer: 4
   m_Name: Water (47)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3457,7 +3433,7 @@ GameObject:
   - component: {fileID: 827243063}
   m_Layer: 4
   m_Name: Water (65)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3564,7 +3540,7 @@ GameObject:
   - component: {fileID: 853203385}
   m_Layer: 4
   m_Name: Water (19)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3671,7 +3647,7 @@ GameObject:
   - component: {fileID: 873786161}
   m_Layer: 4
   m_Name: Water (67)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3763,48 +3739,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873786159}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &906232370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1907503395328492490, guid: a0b106a4900339c48a348a76eb10226a,
-    type: 3}
-  m_PrefabInstance: {fileID: 4510185287989144333}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &906232371 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
-    type: 3}
-  m_PrefabInstance: {fileID: 4510185287989144333}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &906232372
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906232370}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &906232373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906232370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9fb76790f8dbc24a8d221c86ef023cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _moveSpeed: 150
-  _rateOfTurn: 150
 --- !u!1 &950381671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,7 +3754,7 @@ GameObject:
   - component: {fileID: 950381672}
   m_Layer: 4
   m_Name: Water (4)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4028,7 +3962,7 @@ GameObject:
   - component: {fileID: 990342935}
   m_Layer: 4
   m_Name: Water (79)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4135,7 +4069,7 @@ GameObject:
   - component: {fileID: 999463449}
   m_Layer: 4
   m_Name: Water (5)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4242,7 +4176,7 @@ GameObject:
   - component: {fileID: 1031088416}
   m_Layer: 4
   m_Name: Water (69)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4349,7 +4283,7 @@ GameObject:
   - component: {fileID: 1079407501}
   m_Layer: 4
   m_Name: Water (48)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4456,7 +4390,7 @@ GameObject:
   - component: {fileID: 1091740581}
   m_Layer: 4
   m_Name: Water (45)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4563,7 +4497,7 @@ GameObject:
   - component: {fileID: 1102576824}
   m_Layer: 4
   m_Name: Water (41)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4670,7 +4604,7 @@ GameObject:
   - component: {fileID: 1110986748}
   m_Layer: 4
   m_Name: Water (26)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4777,7 +4711,7 @@ GameObject:
   - component: {fileID: 1151831301}
   m_Layer: 4
   m_Name: Water (23)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4884,7 +4818,7 @@ GameObject:
   - component: {fileID: 1179544850}
   m_Layer: 4
   m_Name: Water (7)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4991,7 +4925,7 @@ GameObject:
   - component: {fileID: 1184131923}
   m_Layer: 4
   m_Name: Water (10)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5098,7 +5032,7 @@ GameObject:
   - component: {fileID: 1213160643}
   m_Layer: 4
   m_Name: Water (42)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5205,7 +5139,7 @@ GameObject:
   - component: {fileID: 1230315707}
   m_Layer: 4
   m_Name: Water (21)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5312,7 +5246,7 @@ GameObject:
   - component: {fileID: 1252638987}
   m_Layer: 4
   m_Name: Water (33)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5419,7 +5353,7 @@ GameObject:
   - component: {fileID: 1254324167}
   m_Layer: 4
   m_Name: Water (59)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5526,7 +5460,7 @@ GameObject:
   - component: {fileID: 1264207634}
   m_Layer: 4
   m_Name: Water (30)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5633,7 +5567,7 @@ GameObject:
   - component: {fileID: 1282238142}
   m_Layer: 4
   m_Name: Water (12)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,7 +5674,7 @@ GameObject:
   - component: {fileID: 1302606195}
   m_Layer: 4
   m_Name: Water (1)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5847,7 +5781,7 @@ GameObject:
   - component: {fileID: 1398279612}
   m_Layer: 4
   m_Name: Water (13)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5954,7 +5888,7 @@ GameObject:
   - component: {fileID: 1513753795}
   m_Layer: 4
   m_Name: Water (34)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6046,6 +5980,137 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513753793}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1532582272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3647112749536905064, guid: e4b2db2b157206443a033c57e53a1789,
+    type: 3}
+  m_PrefabInstance: {fileID: 3647112748273983208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1532582274 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3647112749536905066, guid: e4b2db2b157206443a033c57e53a1789,
+    type: 3}
+  m_PrefabInstance: {fileID: 3647112748273983208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532582272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a8fe563b812b94d9bcf4747f083b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!96 &1532582277
+TrailRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532582272}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 25
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+  m_Emitting: 1
+--- !u!114 &1532582280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532582272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6469d648c972dc24f993a2a5da0fc0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 1532582272}
+  _speed: 2
+  _angle: 45
+  _gravity: 9.8
 --- !u!1 &1593219979
 GameObject:
   m_ObjectHideFlags: 0
@@ -6061,7 +6126,7 @@ GameObject:
   - component: {fileID: 1593219981}
   m_Layer: 4
   m_Name: Water (43)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6168,7 +6233,7 @@ GameObject:
   - component: {fileID: 1628834365}
   m_Layer: 4
   m_Name: Water (49)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6275,7 +6340,7 @@ GameObject:
   - component: {fileID: 1629122482}
   m_Layer: 4
   m_Name: Water (57)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6382,7 +6447,7 @@ GameObject:
   - component: {fileID: 1634261400}
   m_Layer: 4
   m_Name: Water (36)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6489,7 +6554,7 @@ GameObject:
   - component: {fileID: 1650526659}
   m_Layer: 4
   m_Name: Water (9)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6596,7 +6661,7 @@ GameObject:
   - component: {fileID: 1656446120}
   m_Layer: 4
   m_Name: Water (18)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6703,7 +6768,7 @@ GameObject:
   - component: {fileID: 1671319477}
   m_Layer: 4
   m_Name: Water (35)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6810,7 +6875,7 @@ GameObject:
   - component: {fileID: 1717690163}
   m_Layer: 4
   m_Name: Water (29)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6917,7 +6982,7 @@ GameObject:
   - component: {fileID: 1717854910}
   m_Layer: 4
   m_Name: Water (76)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7024,7 +7089,7 @@ GameObject:
   - component: {fileID: 1746181353}
   m_Layer: 4
   m_Name: Water (58)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7131,7 +7196,7 @@ GameObject:
   - component: {fileID: 1767112632}
   m_Layer: 4
   m_Name: Water (63)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7238,7 +7303,7 @@ GameObject:
   - component: {fileID: 1775086906}
   m_Layer: 4
   m_Name: Water (39)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7345,7 +7410,7 @@ GameObject:
   - component: {fileID: 1782213762}
   m_Layer: 4
   m_Name: Water (66)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7452,7 +7517,7 @@ GameObject:
   - component: {fileID: 1790884944}
   m_Layer: 4
   m_Name: Water (8)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7559,7 +7624,7 @@ GameObject:
   - component: {fileID: 1896972867}
   m_Layer: 4
   m_Name: Water (61)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7666,7 +7731,7 @@ GameObject:
   - component: {fileID: 1911321567}
   m_Layer: 4
   m_Name: Water (50)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7773,7 +7838,7 @@ GameObject:
   - component: {fileID: 1930107251}
   m_Layer: 4
   m_Name: Water (31)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7880,7 +7945,7 @@ GameObject:
   - component: {fileID: 1937851582}
   m_Layer: 4
   m_Name: Water (32)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7987,7 +8052,7 @@ GameObject:
   - component: {fileID: 1949421456}
   m_Layer: 4
   m_Name: Water (20)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8094,7 +8159,7 @@ GameObject:
   - component: {fileID: 1976038513}
   m_Layer: 4
   m_Name: Water (24)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8201,7 +8266,7 @@ GameObject:
   - component: {fileID: 1991442715}
   m_Layer: 4
   m_Name: Water (14)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8308,7 +8373,7 @@ GameObject:
   - component: {fileID: 1998550833}
   m_Layer: 4
   m_Name: Water (28)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8415,7 +8480,7 @@ GameObject:
   - component: {fileID: 2024280103}
   m_Layer: 4
   m_Name: Water (73)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8522,7 +8587,7 @@ GameObject:
   - component: {fileID: 2053639350}
   m_Layer: 4
   m_Name: Water (22)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8629,7 +8694,7 @@ GameObject:
   - component: {fileID: 2074068421}
   m_Layer: 4
   m_Name: Water (80)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8736,7 +8801,7 @@ GameObject:
   - component: {fileID: 2074234681}
   m_Layer: 4
   m_Name: Water (60)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8843,7 +8908,7 @@ GameObject:
   - component: {fileID: 2110596734}
   m_Layer: 4
   m_Name: Water (44)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8950,7 +9015,7 @@ GameObject:
   - component: {fileID: 2146593736}
   m_Layer: 4
   m_Name: Water (16)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9042,112 +9107,123 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146593734}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &4510185287989144333
+--- !u!1001 &3647112748273983208
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1907503395328492490, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472666, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_Name
       value: Colonial Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.4
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -17.2
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.000000021855694
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3578769658959549883, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112748106472667, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4510185288700325068, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112749232131406, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: Rigidbody
+      propertyPath: _core
       value: 
-      objectReference: {fileID: 906232372}
-    - target: {fileID: 4510185288700325069, guid: a0b106a4900339c48a348a76eb10226a,
+      objectReference: {fileID: 1532582274}
+    - target: {fileID: 3647112749536905064, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 4510185288798448640, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112749536905065, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: Rigidbody
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647112749536905065, guid: e4b2db2b157206443a033c57e53a1789,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647112749536905065, guid: e4b2db2b157206443a033c57e53a1789,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647112749536905066, guid: e4b2db2b157206443a033c57e53a1789,
+        type: 3}
+      propertyPath: _speed
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647112749536905066, guid: e4b2db2b157206443a033c57e53a1789,
+        type: 3}
+      propertyPath: _ballistics
       value: 
-      objectReference: {fileID: 906232372}
-    - target: {fileID: 4510185288798448641, guid: a0b106a4900339c48a348a76eb10226a,
+      objectReference: {fileID: 1532582280}
+    - target: {fileID: 3647112749536905066, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
+      propertyPath: _gravity
+      value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 4510185288897442708, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112749536905068, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4510185288897442711, guid: a0b106a4900339c48a348a76eb10226a,
+    - target: {fileID: 3647112749536905069, guid: e4b2db2b157206443a033c57e53a1789,
         type: 3}
-      propertyPath: Rigidbody
-      value: 
-      objectReference: {fileID: 906232372}
-    - target: {fileID: 4510185289471825241, guid: a0b106a4900339c48a348a76eb10226a,
-        type: 3}
-      propertyPath: Rigidbody
-      value: 
-      objectReference: {fileID: 906232372}
-    - target: {fileID: 4510185289471825246, guid: a0b106a4900339c48a348a76eb10226a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a0b106a4900339c48a348a76eb10226a, type: 3}
+    m_RemovedComponents:
+    - {fileID: 3647112749536905069, guid: e4b2db2b157206443a033c57e53a1789, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e4b2db2b157206443a033c57e53a1789, type: 3}
