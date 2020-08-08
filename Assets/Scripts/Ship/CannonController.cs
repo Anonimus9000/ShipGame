@@ -6,7 +6,9 @@ public class CannonController : MonoBehaviour
 {
     [SerializeField] private float _power = 2f;
     [SerializeField] private float _reloadTime = 1f;
+    [SerializeField] private Ballistics _ballistics;
     [SerializeField] private CannonPosition _cannonPosition;
+    
     private CoreController _core;
     private SpawnerCore _spawner;
     private float _timer;
@@ -19,19 +21,26 @@ public class CannonController : MonoBehaviour
     void Awake()
     {
         _core = GetComponentInChildren<CoreController>();
-        
+
         _spawner = GetComponent<SpawnerCore>();
+
+        _ballistics = GetComponent<Ballistics>();
     }
 
     void Start()
     {
         _core.IncreaseDamageAccountCannon(_power);
     }
-    void Update()
+    void FixedUpdate()
     {
-        _timer += Time.deltaTime;
-
+        _timer += Time.fixedDeltaTime;
+        
         Reload();
+    }
+
+    public CoreController GetCore()
+    {
+        return _core;
     }
     public bool IsRightCannon()
     {
@@ -40,18 +49,14 @@ public class CannonController : MonoBehaviour
         else
             return false;
     }
-    public CoreController GetCore()
-    {
-        return _core;
-    }
-
+    
     public void Fire()
     {
         if (_timer > _reloadTime)
         {
             _coreIsSpawned = false;
             if(_core != null)
-                _core.Fire();
+                _ballistics.StartBallistics();
         }
     }
 
@@ -66,6 +71,7 @@ public class CannonController : MonoBehaviour
         {
             _coreIsSpawned = true;
             SpawnCore();
+            _ballistics.SetBullet(_core.gameObject);
         }
     }
 }
