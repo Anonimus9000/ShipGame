@@ -8,6 +8,10 @@ public class ShipController : MonoBehaviour
     [SerializeField] private float _moveSpeed = 1.0f;
     [SerializeField] private float _rateOfTurn = 1.0f;
     [SerializeField] private float _health = 100f;
+    [SerializeField] private Camera _mainCamera;
+    [SerializeField] private Camera _aimLeftCamera;
+    [SerializeField] private Camera _aimRightCamera;
+
     private Rigidbody _rigidbody;
     private Vector3 _moveDirection = Vector3.zero;
     private ShipController _ship;
@@ -17,6 +21,8 @@ public class ShipController : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _ship = GetComponent<ShipController>();
+        _aimLeftCamera.gameObject.SetActive(false);
+        _aimRightCamera.gameObject.SetActive(false);
     }
 
     void Start()
@@ -26,17 +32,7 @@ public class ShipController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            _rightFire = false;
-            Fire();
-        }
-
-        if (Input.GetButtonDown("Fire2"))
-        {
-            _rightFire = true;
-            Fire();
-        }
+        Aim();
     }
     void FixedUpdate()
     {
@@ -49,6 +45,43 @@ public class ShipController : MonoBehaviour
             _health -= damage;
     }
 
+    private void Aim()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            _rightFire = false;
+            _mainCamera.gameObject.SetActive(false);
+            _aimRightCamera.gameObject.SetActive(true);
+            _aimLeftCamera.gameObject.SetActive(false);
+        }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            _rightFire = true;
+
+            _mainCamera.gameObject.SetActive(false);
+            _aimRightCamera.gameObject.SetActive(false);
+            _aimLeftCamera.gameObject.SetActive(true);
+        }
+
+        if (Input.GetButtonUp("Fire1"))
+        {
+            _mainCamera.gameObject.SetActive(true);
+            _aimRightCamera.gameObject.SetActive(false);
+            _aimLeftCamera.gameObject.SetActive(false);
+
+            Fire(_rightFire);
+        }
+
+        if (Input.GetButtonUp("Fire2"))
+        {
+            _mainCamera.gameObject.SetActive(true);
+            _aimRightCamera.gameObject.SetActive(false);
+            _aimLeftCamera.gameObject.SetActive(false);
+
+            Fire(_rightFire);
+        }
+    }
     private void MovementLogic()
     {
         _rigidbody.AddRelativeForce(Vector3.forward * Input.GetAxis("Vertical") * _moveSpeed * Time.fixedDeltaTime);
@@ -56,9 +89,9 @@ public class ShipController : MonoBehaviour
         _rigidbody.AddTorque(new Vector3(0.0f, Input.GetAxis("Horizontal"), 0.0f) * _rateOfTurn * Time.fixedDeltaTime);
     }
 
-    private void Fire()
+    private void Fire(bool rightFire)
     {
-        if (_rightFire)
+        if (rightFire)
         {
             foreach (var cannon in _cannons)
             {
@@ -67,7 +100,7 @@ public class ShipController : MonoBehaviour
             }
         }
 
-        if (!_rightFire)
+        if (!rightFire)
         {
             foreach (var cannon in _cannons)
             {
