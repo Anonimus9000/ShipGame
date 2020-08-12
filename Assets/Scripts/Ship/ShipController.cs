@@ -26,8 +26,17 @@ public class ShipController : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
+        {
+            _rightFire = false;
             Fire();
+        }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            _rightFire = true;
+            Fire();
+        }
     }
     void FixedUpdate()
     {
@@ -62,7 +71,7 @@ public class ShipController : MonoBehaviour
         {
             foreach (var cannon in _cannons)
             {
-                if (cannon.IsRightCannon())
+                if (!cannon.IsRightCannon())
                     cannon.Fire();
             }
         }

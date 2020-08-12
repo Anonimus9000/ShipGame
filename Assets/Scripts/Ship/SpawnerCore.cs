@@ -8,8 +8,12 @@ public class SpawnerCore : MonoBehaviour
     [SerializeField] private CoreController _core;
 
     public CoreController SpawnCore()
-    {
-        Instantiate(_core, _cannon.transform);
-        return _core;
+    { 
+        CoreController spawnedCore;
+
+        spawnedCore = Instantiate(_core, _cannon.transform);
+        _core = spawnedCore;
+
+        return spawnedCore;
     }
 }
