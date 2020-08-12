@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -17,6 +18,13 @@ public class ShipController : MonoBehaviour
     private ShipController _ship;
     private CannonController[] _cannons;
     private bool _rightFire = true;
+
+    private enum ActionCamera
+    {
+        MainCamera,
+        LeftDeck,
+        RightDeck
+    }
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -50,36 +58,58 @@ public class ShipController : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             _rightFire = false;
-            _mainCamera.gameObject.SetActive(false);
-            _aimRightCamera.gameObject.SetActive(true);
-            _aimLeftCamera.gameObject.SetActive(false);
+
+            SetCamera(ActionCamera.LeftDeck);
         }
 
         if (Input.GetButtonDown("Fire2"))
         {
             _rightFire = true;
 
-            _mainCamera.gameObject.SetActive(false);
-            _aimRightCamera.gameObject.SetActive(false);
-            _aimLeftCamera.gameObject.SetActive(true);
+            SetCamera(ActionCamera.RightDeck);
         }
 
         if (Input.GetButtonUp("Fire1"))
         {
-            _mainCamera.gameObject.SetActive(true);
-            _aimRightCamera.gameObject.SetActive(false);
-            _aimLeftCamera.gameObject.SetActive(false);
-
+            Invoke("SetMainCamera", 1.5f);
             Fire(_rightFire);
         }
 
         if (Input.GetButtonUp("Fire2"))
         {
+            Invoke("SetMainCamera", 1.5f);
+            Fire(_rightFire);
+        }
+    }
+
+    private void SetMainCamera()
+    {
+        _mainCamera.gameObject.SetActive(true);
+        _aimRightCamera.gameObject.SetActive(false);
+        _aimLeftCamera.gameObject.SetActive(false);
+    }
+
+    private void SetCamera(ActionCamera actionCamera)
+    {
+        if (actionCamera == ActionCamera.MainCamera)
+        {
             _mainCamera.gameObject.SetActive(true);
             _aimRightCamera.gameObject.SetActive(false);
             _aimLeftCamera.gameObject.SetActive(false);
+        }
 
-            Fire(_rightFire);
+        else if (actionCamera == ActionCamera.LeftDeck)
+        {
+            _mainCamera.gameObject.SetActive(false);
+            _aimRightCamera.gameObject.SetActive(true);
+            _aimLeftCamera.gameObject.SetActive(false);
+        }
+
+        else if (actionCamera == ActionCamera.RightDeck)
+        {
+            _mainCamera.gameObject.SetActive(false);
+            _aimRightCamera.gameObject.SetActive(false);
+            _aimLeftCamera.gameObject.SetActive(true);
         }
     }
     private void MovementLogic()
