@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using TMPro.EditorUtilities;
+using UnityEditorInternal.VersionControl;
 using UnityEngine;
 
 public class CoreController : MonoBehaviour
@@ -16,6 +17,12 @@ public class CoreController : MonoBehaviour
     {
         _ballistics = GetComponent<Ballistics>();
     }
+
+    void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     void FixedUpdate()
     {
         if (gameObject.transform.position.y < -6)
@@ -24,7 +31,7 @@ public class CoreController : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Ship")
+        if (collider.gameObject.CompareTag("Ship"))
         {
             print("Take ship");
             _ship = collider.GetComponent<ShipController>();
@@ -35,15 +42,30 @@ public class CoreController : MonoBehaviour
 
     public void StartBallistics()
     {
+        gameObject.SetActive(true);
         _ballistics.StartBallistics(gameObject);
+    }
+
+    public void RandTimeToStartBallistics(float firstTimeValue, float secondTimeValue)
+    {
+        gameObject.SetActive(true);
+        StartCoroutine(StartRandBallistics(firstTimeValue, secondTimeValue));
     }
     public void IncreaseDamageAccountCannon(float cannonPower)
     {
         _damage *= cannonPower;
     }
+
     public void Destroy()
     {
         Destroy(gameObject);
     }
 
+    private IEnumerator StartRandBallistics(float firstTimeValue, float secondTimeValue)
+    {
+        float randomValueTime = Random.Range(firstTimeValue, secondTimeValue);
+
+        yield return new WaitForSeconds(randomValueTime);
+        StartBallistics();
+    }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using UnityEngine;
@@ -13,12 +14,14 @@ public class Ballistics : MonoBehaviour
     private bool _start;
     private float vz;
     private float vy;
+
     void Start()
     {
         _angle = _angle * Mathf.Deg2Rad;
-        if(_bullet != null)
+        if (_bullet != null)
             Debug.Log(_bullet.name);
     }
+
     void FixedUpdate()
     {
         if (_start && _bullet != null)
@@ -26,7 +29,7 @@ public class Ballistics : MonoBehaviour
             _time += Time.fixedDeltaTime;
             vz = _speed * _time * Mathf.Cos(_angle) * Time.fixedDeltaTime;
             vy = _speed * _time * Mathf.Sin(_angle) * Time.fixedDeltaTime -
-                       _gravity * (_time * _time) / 2 * Time.fixedDeltaTime;
+                 _gravity * (_time * _time) / 2 * Time.fixedDeltaTime;
             _bullet.gameObject.transform.localPosition += new Vector3(0f, vy, vz);
         }
         else
@@ -40,13 +43,16 @@ public class Ballistics : MonoBehaviour
     {
         _bullet = bullet;
     }
+
     public void StartBallistics()
     {
         _start = true;
     }
+
     public void StartBallistics(GameObject bullet)
     {
         _bullet = bullet;
         _start = true;
     }
+    
 }
