@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Ship : MonoBehaviour, IShip
 {
-    protected private virtual void MovementLogic()
+    public void MovementLogic()
     {
         
     }

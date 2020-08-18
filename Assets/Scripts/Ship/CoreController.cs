@@ -9,6 +9,7 @@ public class CoreController : MonoBehaviour
 {
     [SerializeField] private float _damage = 1f;
     private Ballistics _ballistics;
+    private DamageShipController _damageShips;
     private float _time;
     private ShipController _ship;
     private bool _isFire = false;
@@ -16,6 +17,8 @@ public class CoreController : MonoBehaviour
     void Awake()
     {
         _ballistics = GetComponent<Ballistics>();
+        _damageShips = GetComponentInChildren<DamageShipController>();
+
     }
 
     void Start()
@@ -34,8 +37,10 @@ public class CoreController : MonoBehaviour
         if (collider.gameObject.CompareTag("Ship"))
         {
             print("Take ship");
+            _damageShips.Play();
             _ship = collider.GetComponent<ShipController>();
-            _ship.TakeDamage(_damage);
+            if(_ship != null)
+                _ship.TakeDamage(_damage);
             Destroy(gameObject);
         }
     }
