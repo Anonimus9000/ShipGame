@@ -14,6 +14,7 @@ public class ShipController : MonoBehaviour
     private ShipController _ship;
     private CannonController[] _cannons;
     private bool _isRightFire = true;
+    private bool _isDead = false;
 
     private enum ActionCamera
     {
@@ -37,18 +38,27 @@ public class ShipController : MonoBehaviour
 
     private void Update()
     {
-        Aim();
+        if(!_isDead)
+            Aim();
     }
 
     private void FixedUpdate()
     {
-        MovementLogic();
+        if(!_isDead)
+            MovementLogic();
     }
 
     public void TakeDamage(float damage)
     {
         if (_health > 0)
             _health -= damage;
+    }
+
+    public void Kill()
+    {
+        _isDead = true;
+        _moveSpeed = 0;
+        _rateOfTurn = 0;
     }
 
     private void Aim()

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IShip
+public interface IEnemy
 {
-    void MovementLogic();
+    void TakeDamage();
+    void Kill();
 }
