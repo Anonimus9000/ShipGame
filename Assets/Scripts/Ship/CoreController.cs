@@ -8,8 +8,9 @@ using UnityEngine;
 public class CoreController : MonoBehaviour
 {
     [SerializeField] private float _damage = 1f;
-    private Ballistics _ballistics;
+    [SerializeField] private GameObject _chipsParticle;
     private DamageShipController _damageShips;
+    private Ballistics _ballistics;
     private float _time;
     private ShipController _ship;
     private bool _isFire = false;
@@ -17,8 +18,7 @@ public class CoreController : MonoBehaviour
     void Awake()
     {
         _ballistics = GetComponent<Ballistics>();
-        _damageShips = GetComponentInChildren<DamageShipController>();
-
+        _damageShips =  _chipsParticle.GetComponent<DamageShipController>();
     }
 
     void Start()
@@ -37,6 +37,7 @@ public class CoreController : MonoBehaviour
         if (collider.gameObject.CompareTag("Ship"))
         {
             print("Take ship");
+            _damageShips.transform.position = gameObject.transform.position;
             _damageShips.Play();
             _ship = collider.GetComponent<ShipController>();
             if(_ship != null)

@@ -14,6 +14,7 @@ public class CannonController : MonoBehaviour
     private CoreController _core;
     private SpawnerCore _spawner;
     private FireSmokeController _fireSmoke;
+    private ExplosionFireCannon _explosionFire;
     private float _timer;
 
     private enum CannonPosition
@@ -28,6 +29,7 @@ public class CannonController : MonoBehaviour
         _fireSmoke = GetComponentInChildren<FireSmokeController>();
         _spawner = GetComponent<SpawnerCore>();
         _core.IncreaseDamageAccountCannon(_power);
+        _explosionFire = GetComponentInChildren<ExplosionFireCannon>();
     }
 
     private void FixedUpdate()
@@ -47,6 +49,7 @@ public class CannonController : MonoBehaviour
         if (_timer > _reloadTime && _core != null)
         {
             _fireSmoke.Play();
+            _explosionFire.Play();
             _core.RandTimeToStartBallistics(_firstValue, _secondValue);
             _core = null;
             SpawnCore();

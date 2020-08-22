@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class FireSmokeController : MonoBehaviour
 {
-    private ParticleSystem _fireSmoke;
+    private ParticleSystem _particle;
     void Awake()
     {
-        _fireSmoke = GetComponent<ParticleSystem>();
+        _particle = GetComponent<ParticleSystem>();
     }
 
     public void Play()
     {
-        _fireSmoke.Play();
+        _particle.Play();
     }
 }
