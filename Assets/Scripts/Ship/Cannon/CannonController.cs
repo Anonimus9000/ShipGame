@@ -1,20 +1,21 @@
-﻿using UnityEngine;
-using UnityEngine.SocialPlatforms;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CannonController : MonoBehaviour
 {
     [SerializeField] private float _power = 2f;
     [SerializeField] private float _reloadTime = 1f;
     [SerializeField] private CannonPosition _cannonPosition;
+    [SerializeField] private CoreController _prefabCore;
+   
     [Space(2)]
     [Header("Random time to fire between this value")]
     [SerializeField]private float _firstValue = 0f;
     [SerializeField]private float _secondValue = 2f;
 
     private CoreController _core;
+    private FireCannonEffect _fireCannonEffect;
     private SpawnerCore _spawner;
-    private FireSmokeController _fireSmoke;
-    private ExplosionFireCannon _explosionFire;
     private float _timer;
 
     private enum CannonPosition
@@ -26,15 +27,18 @@ public class CannonController : MonoBehaviour
     private void Awake()
     {
         _core = GetComponentInChildren<CoreController>();
-        _fireSmoke = GetComponentInChildren<FireSmokeController>();
         _spawner = GetComponent<SpawnerCore>();
         _core.IncreaseDamageAccountCannon(_power);
-        _explosionFire = GetComponentInChildren<ExplosionFireCannon>();
+        _fireCannonEffect = GetComponent<FireCannonEffect>();
     }
 
     private void FixedUpdate()
     {
         _timer += Time.fixedDeltaTime;
+        if(_core != null)
+            Debug.Log(_core.name);
+        else
+            Debug.Log("Core is null");
     }
 
     public bool IsRightCannon()
@@ -45,12 +49,10 @@ public class CannonController : MonoBehaviour
     }
 
     public void Fire()
-    {
+    {  //Не включает партиклы, не может стрелять больше одного раза
         if (_timer > _reloadTime && _core != null)
         {
-            _fireSmoke.Play();
-            _explosionFire.Play();
-            _core.RandTimeToStartBallistics(_firstValue, _secondValue);
+            RandTimeToStartBallistics(_firstValue, _secondValue);
             _core = null;
             SpawnCore();
             _timer = 0;
@@ -60,5 +62,21 @@ public class CannonController : MonoBehaviour
     private void SpawnCore()
     {
         _core = _spawner.SpawnCore();
+    }
+    
+    private void RandTimeToStartBallistics(float firstTimeValue, float secondTimeValue)
+    {
+        gameObject.SetActive(true);
+        StartCoroutine(StartRandBallistics(firstTimeValue, secondTimeValue));
+    }
+    
+    private IEnumerator StartRandBallistics(float firstTimeValue, float secondTimeValue)
+    {
+        CoreController core = _core;
+        float randomValueTime = Random.Range(firstTimeValue, secondTimeValue);
+
+        yield return new WaitForSeconds(randomValueTime);
+        core.StartBallistics();
+        _fireCannonEffect.Play();
     }
 }

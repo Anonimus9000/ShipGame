@@ -12,7 +12,6 @@ public class SpawnerCore : MonoBehaviour
         CoreController spawnedCore;
 
         spawnedCore = Instantiate(_core, _cannon.transform);
-        _core = spawnedCore;
 
         return spawnedCore;
     }

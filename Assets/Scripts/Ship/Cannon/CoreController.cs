@@ -1,38 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using TMPro.EditorUtilities;
-using UnityEditorInternal.VersionControl;
+﻿using System;
 using UnityEngine;
 
 public class CoreController : MonoBehaviour
 {
     [SerializeField] private float _damage = 1f;
     [SerializeField] private GameObject _chipsParticle;
+    
     private DamageShipController _damageShips;
     private Ballistics _ballistics;
+    private MeshRenderer _meshRenderer;
     private float _time;
     private ShipController _ship;
     private bool _isFire = false;
 
-    void Awake()
+    private void Awake()
     {
         _ballistics = GetComponent<Ballistics>();
         _damageShips =  _chipsParticle.GetComponent<DamageShipController>();
+        _meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    void Start()
+    private void Start()
     {
-        gameObject.SetActive(false);
+        _meshRenderer.enabled = false;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         if (gameObject.transform.position.y < -6)
             Destroy(gameObject, 2);
     }
 
-    void OnTriggerEnter(Collider collider)
+    private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.CompareTag("Ship"))
         {
@@ -48,15 +47,10 @@ public class CoreController : MonoBehaviour
 
     public void StartBallistics()
     {
-        gameObject.SetActive(true);
+        _meshRenderer.enabled = true;
         _ballistics.StartBallistics(gameObject);
     }
-
-    public void RandTimeToStartBallistics(float firstTimeValue, float secondTimeValue)
-    {
-        gameObject.SetActive(true);
-        StartCoroutine(StartRandBallistics(firstTimeValue, secondTimeValue));
-    }
+    
     public void IncreaseDamageAccountCannon(float cannonPower)
     {
         _damage *= cannonPower;
@@ -65,13 +59,5 @@ public class CoreController : MonoBehaviour
     public void Destroy()
     {
         Destroy(gameObject);
-    }
-
-    private IEnumerator StartRandBallistics(float firstTimeValue, float secondTimeValue)
-    {
-        float randomValueTime = Random.Range(firstTimeValue, secondTimeValue);
-
-        yield return new WaitForSeconds(randomValueTime);
-        StartBallistics();
     }
 }
